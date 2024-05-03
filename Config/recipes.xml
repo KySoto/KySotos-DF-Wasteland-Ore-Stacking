@@ -1,0 +1,30 @@
+<Bundling>
+
+
+
+
+	
+<!--Bundle Recipes-->					
+		<append xpath="/recipes">			
+			<recipe name="modDFscrapTitaniumBundle" count="1" craft_time="0" craft_exp_gain="0">
+				<ingredient name="DFscrapTitanium" count="10000"/>
+			</recipe>
+			<recipe name="modDFrawUraniumBundle" count="1" craft_time="0" craft_exp_gain="0">
+				<ingredient name="DFrawUranium" count="6000"/>
+			</recipe>
+			<recipe name="modDFplutoniumBundle" count="1" craft_time="0" craft_exp_gain="0">
+				<ingredient name="DFplutonium" count="6000"/>
+			</recipe>
+			<recipe name="modDFenrichedUraniumBundle" count="1" craft_time="0" craft_exp_gain="0">
+				<ingredient name="DFenrichedUranium" count="10000"/>
+			</recipe>
+			<recipe name="modDFforgedTitaniumBundle" count="1" craft_time="0" craft_exp_gain="0">
+				<ingredient name="DFforgedTitanium" count="1000"/>
+			</recipe>
+			
+		</append>
+
+	
+</Bundling>
+
+

@@ -1,0 +1,78 @@
+<Bundling>
+
+
+
+
+
+
+<append xpath="/items">			
+		<item name="modBundleBase">
+	<property name="CustomIcon" value="resourceRockSmall"/><property name="ItemTypeIcon" value="treasure"/>
+	<property name="HoldType" value="45"/>
+	
+	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="5"/>
+	<property name="EconomicValue" value="6000"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Group" value="Resources"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<!--<property name="Create_item" value="resourceRockSmall"/>
+		<property name="Create_item_count" value="6000"/>-->
+	</property>
+</item>
+			<item name="modDFscrapTitaniumBundle">
+				<property name="Extends" value="modBundleBase"/>
+				<property name="CustomIcon" value="scrapTitanium"/> 
+				<property name="DescriptionKey" value="modDFscrapTitaniumBundleRecipe"/>
+				<property class="Action0">
+					<property name="Create_item" value="DFscrapTitanium"/>
+					<property name="Create_item_count" value="10000"/>
+				</property>
+			</item>
+			<item name="modDFrawUraniumBundle">
+				<property name="Extends" value="modBundleBase"/>
+				<property name="CustomIcon" value="titaniumFragment"/> 
+				<property name="DescriptionKey" value="modDFrawUraniumBundleRecipe"/>
+				<property name="CustomIconTint" value="336600"/>
+				<property class="Action0">
+					<property name="Create_item" value="DFrawUranium"/>
+					<property name="Create_item_count" value="6000"/>
+				</property>
+			</item>
+			<item name="modDFplutoniumBundle">
+				<property name="Extends" value="modBundleBase"/>
+				<property name="CustomIcon" value="titaniumFragment"/> 
+				<property name="DescriptionKey" value="modDFplutoniumBundleRecipe"/>
+				<property name="CustomIconTint" value="00CCCC"/>
+				<property class="Action0">
+					<property name="Create_item" value="DFplutonium"/>
+					<property name="Create_item_count" value="6000"/>
+				</property>
+			</item>
+			<item name="modDFenrichedUraniumBundle">
+				<property name="Extends" value="modBundleBase"/>
+				<property name="CustomIcon" value="titaniumFragment"/> 
+				<property name="DescriptionKey" value="modDFenrichedUraniumBundleRecipe"/>
+				<property name="CustomIconTint" value="99FF33"/>
+				<property class="Action0">
+					<property name="Create_item" value="DFenrichedUranium"/>
+					<property name="Create_item_count" value="10000"/>
+				</property>
+			</item>
+			<item name="modDFforgedTitaniumBundle">
+				<property name="Extends" value="modBundleBase"/>
+				<property name="CustomIcon" value="ingotTitanium"/> 
+				<property name="DescriptionKey" value="modDFforgedTitaniumBundleRecipe"/>
+				<property class="Action0">
+					<property name="Create_item" value="DFforgedTitanium"/>
+					<property name="Create_item_count" value="1000"/>
+				</property>
+			</item>			
+	</append>
+
+</Bundling>

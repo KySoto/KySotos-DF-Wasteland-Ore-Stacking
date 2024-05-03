@@ -1,0 +1,11 @@
+Key,english
+modDFscrapTitaniumBundleRecipe,"This is a compact stack of Titanium Ore.\n\nUse this item to open and unpack it."
+modDFrawUraniumBundleRecipe,"This is a compact stack of Uranium Ore.\n\nUse this item to open and unpack it."
+modDFplutoniumBundleRecipe,"This is a compact stack of Plutonium.\n\nUse this item to open and unpack it."
+modDFenrichedUraniumBundleRecipe,"This is a compact stack of Enriched Uranium.\n\nUse this item to open and unpack it."
+modDFforgedTitaniumBundleRecipe,"This is a compact stack of Forged Titanium.\n\nUse this item to open and unpack it."
+modDFscrapTitaniumBundle,"Titanium Stack"
+modDFrawUraniumBundle,"Uranium Stack"
+modDFplutoniumBundle,"Plutonium Stack"
+modDFenrichedUraniumBundle,"Enriched Uranium Stack"
+modDFforgedTitaniumBundle,"Forged Titanium Stack"
